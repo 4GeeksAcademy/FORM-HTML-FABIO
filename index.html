@@ -28,19 +28,19 @@
 
           <!-- card, CVC, Amount -->
           <div class="row mb-3">
-            <div class="col-md-6 col-lg-4">
+            <div class="col-md-6 col-lg-5">
               <label for="cardNumber" class="form-label">Card #</label>
               <input type="text" class="form-control" id="cardNumber" name="cardNumber" placeholder="XXXXXXXXXXXXXXXX" maxlength="16" required>
               <!--tipo texto porque deja poner como maximo 16 elementos, aunque se que es con numero-->
             </div>
 
-            <div class="col-md-3 col-lg-2">
+            <div class="col-md-3 col-lg-3">
               <label for="cvc" class="form-label">CVC #</label>
               <input type="text" class="form-control" id="cvc" name="cvc" placeholder="0000" maxlength="4" required>
               <!--tipo texto porque deja poner como maximo 4 elementos, aunque se que es con numero-->
             </div>
 
-            <div class="col-md-3 col-lg-2">
+            <div class="col-md-3 col-lg-4">
               <label for="amount" class="form-label">Amount</label>
               <div class="input-group">
                 <span class="input-group-text">$</span>
@@ -63,11 +63,11 @@
 
           <!--city, state, postal code-->
           <div class="row mb-3">
-            <div class="col-md-5">
+            <div class="col-md-6">
               <label for="city" class="form-label">City</label>
               <input type="text" class="form-control" id="city" name="city" required>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3">
               <label for="state" class="form-label">State</label>
               <select id="state" name="state" class="form-select" required>
                 <option value="">Pick a state</option>
@@ -91,7 +91,7 @@
           <div class="row mb-3">
             <!--we accept -->
             <div class="col-md-5">
-              <label class="form-label">We accept:</label>
+              <label class="form-label">We accept</label>
               <div class="d-flex gap-3 mt-1">
 
                 <div class="d-flex align-items-center">
@@ -118,7 +118,7 @@
             </div>
 
             <!--message -->
-            <div class="col-md-7">
+            <div class="col-md-6 ms-auto">
               <label for="message" class="form-label">Message</label>
               <textarea id="message" name="message" class="form-control" rows="3"></textarea>
               <div class="form-text text-muted mt-1">Add any notes here.</div>
